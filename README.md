@@ -3,10 +3,13 @@ xconfig from the Linux project.
 
 # Installation
 
+To install PicoSAT, run the following commands:
+
 ```sh
-git clone https://github.com/ole0811sch/picosat-installer.git
+git clone https://github.com/ole0811sch/picosat-installer.git # clone this repository
 cd picosat-installer
-sudo make install
+make libpicosat-trace.so    # compile PicoSAT
+sudo make install           # install PicoSAT
 ```
 
-To uninstall, run ```sudo make remove```
+To uninstall, run ```sudo make remove```.
