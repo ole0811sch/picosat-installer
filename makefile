@@ -24,7 +24,7 @@ install: libpicosat-trace.so
 
 remove:
 	rm -f /usr/local/lib/libpicosat-trace.so.0.0.965
-	rm -f libpicosat-trace.so.0.0.965
-	rm -f libpicosat-trace.so.0
+	rm -f /usr/local/lib/libpicosat-trace.so.0.0.965
+	rm -f /usr/local/lib/libpicosat-trace.so.0
 
 .PHONY: all install remove
